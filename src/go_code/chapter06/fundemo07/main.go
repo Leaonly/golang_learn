@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-// 累加器
+// 累加器1
 func AddUpper() func (int) int {
 	var n int = 10
 	return func(i int) int {
