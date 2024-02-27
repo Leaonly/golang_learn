@@ -12,7 +12,7 @@ func BinaryFind(arr *[]int, leftIndex int, rightIndex int,findVal int)  {
 		return
 	}
 
-	// 找到中间下标
+	// 找到中间下标值等于findVal
 	middle := (rightIndex + leftIndex)/2
 	if (*arr)[middle] > findVal {
 		BinaryFind(arr,leftIndex,middle-1,findVal)
