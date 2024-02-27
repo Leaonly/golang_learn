@@ -1,3 +1,7 @@
+23127234
+golang.org/x/tools/gopls v0.15.0 h1:L0GwEHBsOERhkmi9E2Ag0xjAY7exrFsiKhQLX7mBJjM=
+golang.org/x/tools/gopls v0.15.0/go.mod h1:ujKjdtKK4R1iiy8jHx4tdPTrY+Jq+90/VictuTeFUKQ=
+
 go.sum database tree
 23127236
 EPNMCPiBF5MMgdofb9c4auwuqMcGkctm2aJ9oNnt1TI=

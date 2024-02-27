@@ -9,5 +9,7 @@ import (
 
 func main(){
 	var stu = model.NewStudent("tom",88)
-	fmt.Println(stu)
+	fmt.Println(*stu)
+	fmt.Println("name=",stu.Name)
+	fmt.Println("score=",stu.GetScore())
 }
