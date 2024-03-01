@@ -12,4 +12,5 @@ func main(){
 	fmt.Println(*stu)
 	fmt.Println("name=",stu.Name)
 	fmt.Println("score=",stu.GetScore())
+	fmt.Println()
 }
