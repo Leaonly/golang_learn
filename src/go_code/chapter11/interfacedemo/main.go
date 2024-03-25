@@ -37,6 +37,24 @@ func (c Computer)Working(usb Usb)  {
 	usb.Stop()
 }
 
+type Aint interface{
+	Test01()
+	Test02()
+}
+
+type Bint interface{
+	Test01()
+	Test03()
+}
+
+type Cint interface{
+	Aint
+	Bint
+}
+
+
+
+
 func main(){
 	//创建结构体变量
 	computer := Computer{}
