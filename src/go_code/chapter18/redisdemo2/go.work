@@ -1,0 +1,9 @@
+go 1.23.2
+
+use ./main
+
+use (
+	./goredis
+	./main2
+	./redispool
+)

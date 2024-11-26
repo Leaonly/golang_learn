@@ -1,4 +1,0 @@
-go 1.21.4
-
-use ./go_code/chapter06/fundemo01
-// use ./go_code/chapter10/factory/factory_model
